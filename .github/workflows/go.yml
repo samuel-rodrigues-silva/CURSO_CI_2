@@ -13,6 +13,12 @@ jobs:
     strategy:
       matrix:
         go_version: ['1.18', '1.17', '>=1.18']
+      env:
+        host: localhost
+        port: 5433
+        user: root
+        password: root
+        dbname: root
     steps:
     - uses: actions/checkout@v3
 
