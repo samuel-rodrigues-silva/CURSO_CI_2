@@ -2,7 +2,7 @@ FROM ubuntu
 
 EXPOSE 8000
 
-ENV HOST=localhost PORT=5432
+ENV HOST=localhost PORT=5433
 ENV USER=root
 ENV PASSWORD=root
 ENV DB=root
